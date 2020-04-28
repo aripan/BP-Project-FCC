@@ -87,6 +87,15 @@
     font-weight: 300;
   }
 
+  .top-section .nav-items .items:hover {
+    background-color: rgb(240, 234, 234, 0);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--bg-color);
+    font-style: italic;
+  }
+
   #email-service {
     font-size: 2.5vw;
   }

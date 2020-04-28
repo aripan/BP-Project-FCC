@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="../style/contact.css" />
+
+    <!-- Font Awesome Kit-->
+    <script
+      src="https://kit.fontawesome.com/32d4414583.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Contact Me</h1>
+    <p id="description">
+      So, how can i help you?
+    </p>
+    <div class="main">
+      <a href="mailto:aripan017@gmail.com" target="_blank">
+        <i class="fas fa-at"> Send me a mail</i>
+      </a>
+      <p>or fill out the form below:</p>
+      <form action="survey">
+        <!-- Name, Email, Age -->
+        <label for="name" id="name-label">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          value="Last name, First name"
+          required
+        />
+        <br />
+        <br />
+        <label for="email" id="email-label">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="example@example.com"
+          required
+        />
+        <br />
+        <br />
+        <label for="number" id="number-label">Age(optional):</label>
+        <input
+          type="number"
+          id="number"
+          name="age"
+          min="1"
+          max="100"
+          value="Value should be equal to or less than 100"
+        />
+        <br />
+        <br />
+
+        <!-- Selecting source of information -->
+        <label for="" id="info-label">How did you know about this site?:</label>
+        <select id="dropdown">
+          <option>Select an option</option>
+          <option value="friend">From a friend</option>
+          <option value="internet">Internet</option>
+          <option value="socialMedia">Social Media</option>
+          <option value="Others">Others</option>
+        </select>
+        <br />
+
+        <!-- Recommending a friend -->
+        <div>
+          <p>Would you recommend this site to a friend?</p>
+          <input
+            type="radio"
+            id="definitely"
+            name="name"
+            value="definitely"
+            checked
+          />
+          <label>Definitely</label><br />
+          <input type="radio" id="maybe" name="name" value="maybe" />
+          <label> Maybe</label><br />
+          <input type="radio" id="notsure" name="name" value="notsure" />
+          <label>Not sure</label>
+        </div>
+        <br />
+        <br />
+
+        <!-- Comment or suggestion -->
+        <p>Any comments or suggestion?</p>
+        <textarea name="comments" id="comments"></textarea>
+        <br />
+        <br />
+
+        <!-- Submit button -->
+        <input type="submit" id="submit" />
+        <br />
+        <br />
+      </form>
+    </div>
+  </body>
+</html>

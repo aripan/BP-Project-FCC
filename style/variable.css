@@ -1,0 +1,16 @@
+/* --------- Declaring Variables --------- */
+:root {
+  /* Theme colors() */
+  --text-gray: #d1d3d6;
+  --bg-color: #0f0f0f;
+  --white: #ffffff;
+  --midnight: #104f55;
+
+  /* theme font-family */
+  --Abel: "Abel";
+  --Josefin: "Josefin";
+  --Lexend: "Lexend";
+  --Livvic: "Livvic";
+}
+
+/* ----x---- Declaring Variables ----x---- */

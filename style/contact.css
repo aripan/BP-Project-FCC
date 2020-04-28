@@ -1,0 +1,201 @@
+body {
+  background-color: beige;
+  font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0%;
+  font-style: oblique;
+  font-size: 2.5rem;
+  color: black;
+}
+
+#description {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0em;
+  font-style: oblique;
+  width: 60%;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.main {
+  background-color: rgba(138, 135, 135, 0.6);
+  width: 60vw;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  display: block;
+  margin-left: 4em;
+  margin-bottom: 0.4em;
+}
+
+#name,
+#email,
+#number {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.5em /2em;
+}
+
+#info-label,
+#select_an_option-label {
+  display: block;
+  margin-left: 4em;
+  margin-bottom: 0.4em;
+}
+
+p {
+  display: block;
+  margin-left: 4em;
+}
+
+#dropdown {
+  display: block;
+  margin-left: 5em;
+  width: 40%;
+  height: 30px;
+  border-radius: 0.5em /2em;
+}
+
+#definitely,
+#maybe,
+#notsure {
+  display: inline;
+  margin-left: 7em;
+}
+
+#comments {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 15vh;
+  width: 80%;
+  font-size: 1.2rem;
+  border-radius: 0.5em /2em;
+}
+
+#submit {
+  display: block;
+  position: relative;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10vh;
+  width: 50%;
+  border-radius: 0.5em 2em;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(154, 163, 167);
+}
+
+@media screen and (max-device-width: 700px) {
+  .main {
+    background-color: rgba(138, 135, 135, 0.6);
+    width: 90vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label {
+    display: block;
+    margin-left: 4em;
+    margin-bottom: 0.4em;
+  }
+
+  #info-label {
+    display: block;
+    margin-left: 4em;
+    margin-bottom: 0.4em;
+  }
+
+  p {
+    display: block;
+    margin-left: 4em;
+  }
+
+  #dropdown {
+    display: block;
+    margin-left: 5em;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 5em;
+  }
+}
+
+@media screen and (max-device-width: 500px) {
+  .main {
+    background-color: rgba(138, 135, 135, 0.6);
+    width: 90vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label {
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 0.4em;
+  }
+
+  #info-label,
+  #select_an_option-label {
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 0.4em;
+  }
+
+  p {
+    display: block;
+    margin-left: 2em;
+  }
+
+  #dropdown {
+    display: block;
+    margin-left: 3em;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 5em;
+  }
+}

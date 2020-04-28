@@ -1,0 +1,90 @@
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "head"
+    "main"
+    "foot";
+}
+
+nav {
+  grid-area: head;
+}
+
+main {
+  grid-area: main;
+  margin-top: 15vh;
+}
+
+.foot {
+  grid-area: foot;
+  background-color: var(--midnight);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem;
+}
+
+#main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "diet"
+    "workout";
+}
+
+#diet-card {
+  grid-area: diet;
+  padding: 1rem;
+  text-align: justify;
+}
+
+#workout-card {
+  grid-area: workout;
+  padding: 1rem;
+  text-align: justify;
+}
+
+.card1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "picture post-title"
+    " dietInfo .";
+}
+
+.card1 .pic {
+  grid-area: picture;
+}
+
+.card1 .card .post-head-title {
+  grid-area: post-title;
+}
+
+.card1 .card .information {
+  grid-area: dietInfo;
+}
+
+.card2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "picture post-title"
+    "workInfo .";
+}
+
+.card2 .pic {
+  grid-area: picture;
+}
+
+.card2 .card .post-head-title {
+  grid-area: post-title;
+}
+
+.card2 .card .information {
+  grid-area: workInfo;
+}

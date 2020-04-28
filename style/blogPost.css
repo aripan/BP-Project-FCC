@@ -30,7 +30,7 @@ blockquote {
   padding: 0 1rem;
 }
 .author-img {
-  max-width: 40vw;
+  max-width: 60vw;
   height: auto;
   margin: auto;
   padding: 0%;
@@ -39,6 +39,7 @@ blockquote {
 
 footer {
   text-align: center;
+  margin-top: 4rem;
 }
 .social-items {
   display: inline;

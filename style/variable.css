@@ -6,6 +6,9 @@
   --white: #ffffff;
   --midnight: #104f55;
 
+  /* gradient color */
+  --sky: linear-gradient(120deg, #95afd8 0%, #a8c8d6 100%);
+
   /* theme font-family */
   --Abel: "Abel";
   --Josefin: "Josefin";

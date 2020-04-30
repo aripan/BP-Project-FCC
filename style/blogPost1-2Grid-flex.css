@@ -1,0 +1,58 @@
+.grid-container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "first"
+    "second"
+    "third";
+}
+
+nav {
+  grid-area: first;
+}
+
+main {
+  grid-area: second;
+  margin-top: 15vh;
+}
+
+footer {
+  grid-area: third;
+}
+
+#main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "head"
+    "author-detail "
+    "content";
+}
+
+header {
+  grid-area: head;
+}
+
+main .author-initial-info img,
+main .author-initial-info p {
+  grid-area: author-detail;
+}
+
+main .extended-information {
+  grid-area: content;
+}
+
+main .author-initial-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 2rem;
+}
+
+main .extended-information {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,3 +1,6 @@
+@import "./variable.css";
+@import "./blogPost1-2Grid-flex.css";
+
 html,
 body {
   margin: 0%;
@@ -26,7 +29,7 @@ a {
   margin-top: 0%;
   padding: 0 1rem;
   font-family: var(--Abel);
-  font-size: 4vw;
+  font-size: 3vw;
   font-style: oblique;
   color: var(--bg-color);
 }
@@ -48,6 +51,7 @@ a {
   font-size: 1.2rem;
   font-weight: 600;
 }
+
 .top-section .nav-items .items:hover {
   background-color: var(--midnight);
 }
@@ -57,12 +61,43 @@ a {
   font-style: italic;
 }
 
+header h1 {
+  font-size: 5vw;
+  font-style: oblique;
+  font-family: var(--Lexend);
+  padding: 0 2rem 1rem 2rem;
+  margin: 0%;
+}
+
+main .author-initial-info img {
+  width: 5vw;
+  height: auto;
+  margin: 0.5rem 0.5rem 0 0.5rem;
+  border-radius: 10rem /5rem;
+}
+
+main .author-initial-info p {
+  font-size: 1.5vw;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(60, 60, 196);
+}
+
+main .extended-information {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 2vw;
+  font-family: var(--Lexend);
+  text-align: justify;
+}
+
+main .extended-information .pic img {
+  width: 100%;
+  height: auto;
+}
+
 figure {
   border: outset;
-}
-img {
-  width: 300px;
-  height: 400px;
 }
 
 figcaption {
@@ -70,60 +105,22 @@ figcaption {
   font-size: 1.5rem;
 }
 
-h2 {
-  font-family: var(--Lexend);
-  font-style: oblique;
-}
-
-blockquote {
-  font-family: var(--Livvic);
-}
-
-.information {
-  overflow: hidden;
-  height: 10em;
-  line-height: 1em;
-  font-size: 1.2rem;
-  font-family: var(--Lexend);
-}
-
-.card p {
-  text-indent: 2rem;
-}
-#more:checked + div {
-  height: auto;
-  font-family: var(--Lexend);
-}
-
-.service {
-  display: flex;
-  flex-direction: column;
-  font-size: 2vw;
-}
-
-label,
-input {
-  padding: 1rem;
-}
-
-#email-service {
-  width: 30vw;
-  height: 0.5rem;
-  font-size: 2vw;
+footer {
   text-align: center;
-  border-radius: 1rem /2rem;
+  margin: 0%;
+  background-image: var(--sky);
+}
+
+footer .social-items {
+  display: inline;
+  padding-bottom: 2rem;
+  margin: 0 2rem;
+  font-size: 2rem;
+}
+
+footer .social-items i {
+  padding: 1rem;
   margin: auto;
-}
-
-#sub-btn {
-  width: 25vw;
-  height: 1.5rem;
-  font-size: 1.5vw;
-  border-radius: 1rem /2rem;
-  color: var(--midnight);
-  cursor: pointer;
-}
-
-button:hover {
-  transform: scale(1.2);
+  font-size: 3vw;
+  color: rgb(46, 41, 41);
 }

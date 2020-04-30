@@ -1,0 +1,396 @@
+/* smallest devices (phones, 479.98px and down) */
+@media only screen and (max-width: 479.98px) {
+  /* navigation section */
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 0.1rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: transparent;
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: initial;
+  }
+
+  /* blog posts section */
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture"
+      "post-title"
+      " dietInfo";
+  }
+
+  .card2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture"
+      "post-title"
+      "workInfo";
+  }
+
+  /* footer section */
+  footer h3 {
+    font-size: 8vw;
+  }
+
+  label {
+    font-size: 6vw;
+  }
+
+  #email-service {
+    font-size: 3vw;
+    width: 50vw;
+    height: auto;
+  }
+
+  #sub-btn {
+    font-size: 3vw;
+    width: 40vw;
+    height: auto;
+  }
+
+  button:hover {
+    transform: scale(1);
+  }
+}
+
+/* small devices (phones, 480px and up) */
+@media only screen and (min-width: 480px) {
+  /* navigation section */
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 0.1rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0%;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: transparent;
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: initial;
+  }
+
+  /* blog posts section */
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture"
+      "post-title"
+      " dietInfo";
+  }
+
+  .card2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture"
+      "post-title"
+      "workInfo";
+  }
+
+  /* footer section */
+  footer h3 {
+    font-size: 8vw;
+  }
+
+  label {
+    font-size: 6vw;
+  }
+
+  #email-service {
+    font-size: 3vw;
+    width: 50vw;
+    height: auto;
+  }
+
+  #sub-btn {
+    font-size: 3vw;
+    width: 40vw;
+    height: auto;
+  }
+
+  button:hover {
+    transform: scale(1);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* navigation section */
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  /* blog posts section */
+
+  .card1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture post-title"
+      " dietInfo .";
+  }
+
+  .card2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "picture post-title"
+      "workInfo .";
+  }
+
+  img {
+    width: 100%;
+    height: 50vh;
+  }
+
+  /* footer section */
+  footer h3 {
+    font-size: 5vw;
+  }
+
+  label {
+    font-size: 4vw;
+  }
+
+  #email-service {
+    font-size: 3vw;
+    width: 40vw;
+    height: auto;
+  }
+
+  #sub-btn {
+    font-size: 3vw;
+    width: 40vw;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  footer p {
+    font-size: 3vw; /* added */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* navigation section */
+  .top-section h1 {
+    font-size: 3vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1rem 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  /* footer section */
+  footer h3 {
+    font-size: 3vw;
+    padding-top: 4rem;
+    margin-bottom: 0%;
+  }
+
+  label {
+    font-size: 3vw;
+    padding: 2rem;
+  }
+
+  #email-service {
+    font-size: 2vw;
+    width: 30vw;
+    height: 0.5rem;
+  }
+
+  #sub-btn {
+    font-size: 1.5vw;
+    width: 25vw;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+  }
+
+  footer p {
+    font-size: 2vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* navigation section */
+  .top-section h1 {
+    font-size: 4vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 0em;
+    min-height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  main blockquote,
+  main p {
+    font-size: 2vw;
+  }
+
+  /* footer section */
+  footer h3 {
+    font-size: 4vw;
+    padding-top: 4rem;
+    margin-bottom: 0%;
+  }
+
+  label {
+    font-size: 4vw;
+    padding: 2rem;
+  }
+
+  #email-service {
+    font-size: 2vw;
+    width: 30vw;
+    height: auto;
+  }
+
+  #sub-btn {
+    font-size: 2vw;
+    width: 25vw;
+  }
+
+  button:hover {
+    transform: scale(1.2);
+  }
+
+  footer p {
+    font-size: 2vw;
+  }
+}

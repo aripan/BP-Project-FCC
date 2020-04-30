@@ -1,0 +1,387 @@
+/* smallest devices (phones, 479.98px and down) */
+@media only screen and (max-width: 479.98px) {
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 0.1rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: transparent;
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: inherit;
+  }
+
+  .main {
+    background-color: rgba(138, 135, 135, 0.6);
+    width: 80vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label,
+  #info-label {
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 0.4em;
+  }
+
+  #dropdown {
+    display: block;
+    margin-left: 2em;
+    width: 60%;
+    height: 5vh;
+    border-radius: 0.5em /2em;
+  }
+
+  p {
+    display: block;
+    margin-left: 2em;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 4em;
+  }
+}
+
+/* smaller devices (phones, 480px and up) */
+@media only screen and (min-width: 480px) {
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 0.1rem 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0%;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: transparent;
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: inherit;
+  }
+
+  .main {
+    background-color: rgba(138, 135, 135, 0.6);
+    width: 80vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label,
+  #info-label {
+    display: block;
+    margin-left: 3em;
+    margin-bottom: 0.4em;
+  }
+
+  #name,
+  #email,
+  #number {
+    display: block;
+    margin-left: 3em;
+    margin-right: auto;
+    width: 70%;
+    height: 1.5rem;
+    border-radius: 0.5em /2em;
+  }
+
+  #dropdown {
+    display: block;
+    margin-left: 3em;
+    width: 60%;
+    height: 5vh;
+    border-radius: 0.5em /2em;
+  }
+
+  p {
+    display: block;
+    margin-left: 3em;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 5em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-section h1 {
+    font-size: 5vw;
+  }
+
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 10vh;
+    margin: 0 1rem;
+    padding-top: 0%;
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  .main .fa-at {
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  #description {
+    font-size: 5vw;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label,
+  #info-label {
+    display: block;
+    font-size: 1.5rem;
+    margin-left: 2em;
+    margin-bottom: 0.4em;
+  }
+
+  p {
+    display: block;
+    margin-left: 2em;
+    font-size: 1.5rem;
+  }
+
+  .suggesting {
+    font-size: 1.5rem;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 6em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-device-width: 992px) {
+  .top-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 0rem;
+    min-height: 10vh;
+    background-color: var(--text-gray);
+  }
+
+  .top-section h1 {
+    margin-top: 0%;
+    padding: 0 1rem;
+    font-family: var(--Abel);
+    font-size: 3vw;
+    font-style: oblique;
+    color: var(--bg-color);
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 0%;
+    height: 0rem;
+    min-height: 10vh;
+    margin: 0 1rem;
+    list-style-type: none;
+    font-family: var(--Josefin);
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  .main {
+    background-color: rgba(138, 135, 135, 0.6);
+    width: 60vw;
+    height: auto;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-section {
+    min-height: 10vh;
+  }
+
+  .top-section h1 {
+    font-size: 4vw;
+  }
+
+  .top-section .nav-items ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 0%;
+    height: 10vh;
+    margin: 0 1rem;
+  }
+
+  .top-section .nav-items .items {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .top-section .nav-items .items:hover {
+    background-color: var(--midnight);
+  }
+
+  .top-section .nav-items .items:hover a {
+    color: var(--white);
+    font-style: italic;
+  }
+
+  .main {
+    width: 80vw;
+  }
+
+  .main .fa-at {
+    font-size: 3rem;
+    padding-left: 1rem;
+  }
+
+  #name-label,
+  #email-label,
+  #number-label,
+  #info-label {
+    display: block;
+    margin-left: 2em;
+    margin-bottom: 0.4em;
+    font-size: 3rem;
+  }
+
+  #name,
+  #email,
+  #number {
+    display: block;
+    margin-left: 4em;
+    margin-right: auto;
+    width: 70%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.5em /2em;
+  }
+
+  #dropdown {
+    display: block;
+    margin-left: 4em;
+    width: 60%;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 0.5em /2em;
+  }
+
+  p {
+    display: block;
+    margin-left: 2em;
+    font-size: 3rem;
+  }
+
+  .suggesting {
+    font-size: 2rem;
+  }
+
+  #definitely,
+  #maybe,
+  #notsure {
+    display: inline;
+    margin-left: 10em;
+  }
+
+  #comments {
+    height: 20vh;
+  }
+
+  #submit {
+    font-size: 3rem;
+  }
+}
